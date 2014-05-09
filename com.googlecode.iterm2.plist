@@ -27,7 +27,7 @@
 	<key>CopyLastNewline</key>
 	<true/>
 	<key>CopySelection</key>
-	<true/>
+	<false/>
 	<key>Custom Color Presets</key>
 	<dict>
 		<key>Solarized Dark</key>
