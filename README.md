@@ -2,6 +2,15 @@
 
 We use quite a few machines, and we only want to make changes to iTerm preferences once – and have them sync across all of our machines!
 
+# What
+
+These iTerm preferences are opinionated, and are configured as such:
+
+* Does not copy text on selection
+* Dim affects only text, not background. 
+* Hides the scroll bar and the window number
+
+
 # How
 
 iTerm loads an XML file and will happily load configuration. 
