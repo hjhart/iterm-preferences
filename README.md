@@ -12,6 +12,7 @@ These iTerm preferences are opinionated, and are configured as such:
 * Do not show per-pane title bar when in split pane mode
 * Uses a blinking vertical bar for a cursor
 * Use the same current directory when opening a new tab or window
+* Does not insert last newline on paste (to not accidentally execute commands)
 
 # Installation
 
