@@ -7,14 +7,14 @@ We use quite a few machines, and we only want to make changes to iTerm preferenc
 These iTerm preferences are opinionated, and are configured as such:
 
 * Dark solarized theme
+* Hides the scroll bar and the window number
+* Use the same current directory when opening a new tab or window
+* Does not insert last newline on paste (to not accidentally execute commands)
 * Clearer selections in solarized theme
 * Does not copy text on selection
 * Background dimming affects only text, not background. 
-* Hides the scroll bar and the window number
 * Do not show per-pane title bar when in split pane mode
 * Uses a blinking vertical bar for a cursor
-* Use the same current directory when opening a new tab or window
-* Does not insert last newline on paste (to not accidentally execute commands)
 
 # Installation
 
