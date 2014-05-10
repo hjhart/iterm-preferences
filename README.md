@@ -9,7 +9,7 @@ These iTerm preferences are opinionated, and are configured as such:
 * Does not copy text on selection
 * Dim affects only text, not background. 
 * Hides the scroll bar and the window number
-
+* Do not show per-pane title bar when in split pane mode
 
 # How
 
