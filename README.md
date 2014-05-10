@@ -11,6 +11,7 @@ These iTerm preferences are opinionated, and are configured as such:
 * Hides the scroll bar and the window number
 * Do not show per-pane title bar when in split pane mode
 * Uses a blinking vertical bar for a cursor
+* Use the same current directory when opening a new tab or window
 
 # Installation
 
