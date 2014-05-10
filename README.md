@@ -10,6 +10,7 @@ These iTerm preferences are opinionated, and are configured as such:
 * Background dimming affects only text, not background. 
 * Hides the scroll bar and the window number
 * Do not show per-pane title bar when in split pane mode
+* Uses a blinking vertical bar for a cursor
 
 # How
 

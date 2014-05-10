@@ -320,6 +320,8 @@
 	<array/>
 	<key>NSTableView Sort Ordering KeyBingingTable</key>
 	<array/>
+	<key>NSWindow Frame NSFontPanel</key>
+	<string>2049 88 445 270 0 0 2560 1418 </string>
 	<key>NSWindow Frame Preferences</key>
 	<string>289 339 924 485 0 0 2560 1418 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
@@ -499,7 +501,7 @@
 			<key>Blink Allowed</key>
 			<false/>
 			<key>Blinking Cursor</key>
-			<false/>
+			<true/>
 			<key>Blur</key>
 			<false/>
 			<key>Blur Radius</key>
@@ -540,7 +542,7 @@
 				<real>0.0</real>
 			</dict>
 			<key>Cursor Type</key>
-			<integer>2</integer>
+			<integer>1</integer>
 			<key>Custom Command</key>
 			<string>No</string>
 			<key>Custom Directory</key>
