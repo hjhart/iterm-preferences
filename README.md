@@ -6,6 +6,8 @@ We use quite a few machines, and we only want to make changes to iTerm preferenc
 
 These iTerm preferences are opinionated, and are configured as such:
 
+* Dark solarized theme
+* Clearer selections in solarized theme
 * Does not copy text on selection
 * Background dimming affects only text, not background. 
 * Hides the scroll bar and the window number
