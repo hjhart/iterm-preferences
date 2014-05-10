@@ -19,18 +19,21 @@ When you modify the configuration, it will save it as a binary object. This bina
 
 **Beware** The directions below will blow away your current configuration.
 
-1. Symlink your configuration to the configuration in this file
+1. Close iTerm and open up Terminal
+
+2. Symlink your configuration to the git repository
 
 ```
+killall cfprefsd     # This will get rid of cached settings
 cd ~/workspace/
-git clone github.com:hjhart/iterm-preferences.git
+git clone https://github.com/hjhart/iterm-preferences.git
 rm  ~/Library/Preferences/com.googlecode.iterm2.plist
 ln -s ~/workspace/iterm-preferences/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
 ```
 
-2. Make changes to your configuration in iTerm2. You'll need to close iTerm2 at this point for the configuration to save.
+3. Open up iTerm and make some changes to your configuration. You'll need to close iTerm2 at this point for the configuration to save.
 
-3. Check in your preferences for iTerm
+4. Checking in your preferences for iTerm
 
 ```
 cd ~/workspace/iterm-preferences
