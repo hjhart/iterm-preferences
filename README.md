@@ -16,7 +16,7 @@ These iTerm preferences are opinionated, and are configured as such:
 
 iTerm loads an XML file and will happily load configuration. 
 
-When you modify the configuration, it will save it as a binary object. This binary object can be converted back to a XML file (which is easily diff-able) by running the `convert_to_xml.sh` script.
+When you modify the configuration, it will save it as a binary object. This binary object can be converted back to a XML file (which is easily diff-able) by running the `convert_preferences_from_binary_to_xml.sh` script.
 
 **Beware** The directions below will blow away your current configuration.
 
@@ -38,7 +38,7 @@ ln -s ~/workspace/iterm-preferences/com.googlecode.iterm2.plist ~/Library/Prefer
 
 ```
 cd ~/workspace/iterm-preferences
-./convert_to_xml.sh
+./convert_preferences_from_binary_to_xml.sh
 git diff
 ```
 
