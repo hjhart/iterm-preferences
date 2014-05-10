@@ -12,7 +12,7 @@ These iTerm preferences are opinionated, and are configured as such:
 * Do not show per-pane title bar when in split pane mode
 * Uses a blinking vertical bar for a cursor
 
-# How
+# Installation
 
 iTerm loads an XML file and will happily load configuration. 
 
@@ -43,6 +43,10 @@ git diff
 ```
 
 You should see the changes that you made at this point as a reasonable delta in git. You can check this file in at that point and sync it across all of your machines.
+
+# Updating
+
+After pulling in new changes from git, make sure you exit out of iTerm, open up Terminal and run `killall cfprefsd`. This will ensure that the cached configurations get unloaded. 
 
 # Developing
 
