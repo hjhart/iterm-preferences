@@ -7,7 +7,7 @@ We use quite a few machines, and we only want to make changes to iTerm preferenc
 These iTerm preferences are opinionated, and are configured as such:
 
 * Does not copy text on selection
-* Dim affects only text, not background. 
+* Background dimming affects only text, not background. 
 * Hides the scroll bar and the window number
 * Do not show per-pane title bar when in split pane mode
 
