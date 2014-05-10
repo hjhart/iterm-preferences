@@ -10,6 +10,7 @@ These iTerm preferences are opinionated, and are configured as such:
 * Hides the scroll bar and the window number
 * Use the same current directory when opening a new tab or window
 * Does not insert last newline on paste (to not accidentally execute commands)
+* Flashing Bell instead of audio bell
 * Clearer selections in solarized theme
 * Does not copy text on selection
 * Background dimming affects only text, not background. 
