@@ -31662,8 +31662,14 @@
 	<integer>2</integer>
 	<key>LoadPrefsFromCustomFolder</key>
 	<string>True</string>
+	<key>Mark Alert Action</key>
+	<string>Modal Alert</string>
 	<key>MaxVertically</key>
 	<false/>
+	<key>NSNavLastRootDirectory</key>
+	<string>~/Desktop</string>
+	<key>NSNavPanelExpandedSizeForSaveMode</key>
+	<string>{712, 521}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -31689,14 +31695,19 @@
 	<array/>
 	<key>NSTableView Sort Ordering KeyBingingTable</key>
 	<array/>
+	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
+	<dict>
+		<key>TB Is Shown</key>
+		<integer>1</integer>
+	</dict>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>970 779 620 392 0 0 2560 1417 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>707 613 918 381 0 0 2560 1417 </string>
+	<string>643 742 918 512 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1284 46 1276 1371 0 0 2560 1417 </string>
+	<string>1284 42 1276 1375 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>44 331 2436 1086 0 0 2560 1417 </string>
+	<string>44 365 1252 1048 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>294 444 652 453 0 0 2560 1417 </string>
 	<key>New Bookmarks</key>
@@ -32561,7 +32572,16 @@
 			<key>Transparency</key>
 			<real>0.0</real>
 			<key>Triggers</key>
-			<array/>
+			<array>
+				<dict>
+					<key>action</key>
+					<string>MarkTrigger</string>
+					<key>parameter</key>
+					<integer>0</integer>
+					<key>regex</key>
+					<string>Finished in</string>
+				</dict>
+			</array>
 			<key>Unlimited Scrollback</key>
 			<true/>
 			<key>Use Bold Font</key>
@@ -32589,7 +32609,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>A7249D02-F33F-4355-889B-B2F8697F8505</string>
 	<key>NoSyncLastTipTime</key>
-	<real>499900260.24745703</real>
+	<real>500493851.96819597</real>
 	<key>NoSyncPermissionToShowTip</key>
 	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
@@ -32610,6 +32630,11 @@
 		<string>0010</string>
 		<string>0011</string>
 		<string>0012</string>
+		<string>0013</string>
+		<string>0014</string>
+		<string>0015</string>
+		<string>0016</string>
+		<string>0017</string>
 	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
@@ -32677,7 +32702,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-11-03T20:22:20Z</date>
+	<date>2016-11-10T12:53:16Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
@@ -32727,7 +32752,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.8</string>
+	<string>3.0.12</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
